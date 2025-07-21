@@ -1,6 +1,6 @@
 export const WavesSvg = () => {
 	return (
-		// biome-ignore lint/a11y/noSvgWithoutTitle: <explanation>
+		// biome-ignore lint/a11y/noSvgWithoutTitle: not needed
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 1600 800"
