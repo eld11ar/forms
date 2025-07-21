@@ -1,3 +1,6 @@
+import { RouterProvider } from "react-router"
+import { appRouter } from "./appRouter"
+
 export const App = () => {
-	return <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
+	return <RouterProvider router={appRouter()} />
 }
