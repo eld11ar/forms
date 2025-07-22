@@ -14,5 +14,15 @@ export const appRouter = () => {
 				}
 			},
 		},
+		{
+			path: "sign-up",
+			async lazy() {
+				const { SignUpPage } = await import("@/pages/SignUp")
+
+				return {
+					Component: SignUpPage,
+				}
+			},
+		},
 	])
 }
