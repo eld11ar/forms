@@ -1,1 +1,1 @@
-export const STORAGE_START_KEY = "forms:"
+export const STORAGE_START_KEY = "forms"
