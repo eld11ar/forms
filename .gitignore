@@ -22,5 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-.vscode
-.idea
+.env*
+stats.html
